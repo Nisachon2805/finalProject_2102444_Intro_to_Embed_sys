@@ -50,7 +50,8 @@ The handleEmerg function is responsible for managing the emergency handling proc
 - If the system is in state 1, it validates the entered emergency duration and updates the state accordingly. Once the countdown timer reaches 0, it transitions to state 2, indicating the completion of the emergency handling process.
 - If the system is in state 2, it completes the emergency handling process and waits for a new emergency to occur.
 
-###countingTime(String Mode)
+### countingTime(String Mode)
 The countingTime function manages the countdown timer for the traffig light. It counts down the time in milliseconds and updates the 7-segment display accordingly.
 
-###
+### Emerg()
+The Emerg function toggles the emergency state of the system when has interruppt from button.
