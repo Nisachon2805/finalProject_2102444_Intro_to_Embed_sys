@@ -55,3 +55,6 @@ The countingTime function manages the countdown timer for the traffig light. It 
 
 ### Emerg()
 The Emerg function toggles the emergency state of the system when has interruppt from button.
+
+### oneLight(String Mode) and twoLight(String Mode)
+These function set hoe to out put LED or RGB LED to show red green or yellow ligth.
