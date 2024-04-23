@@ -35,7 +35,7 @@ Controls the RGB LED in the emergency mode.
 ## Software
 ### lightControl(String Mode)
 The lightControl function is responsible for controlling the lighting system based on the specified mode.
-####Parameters
+#### Parameters
 Mode: Specifies the mode of operation, either "normal" or "emergency".
 #### Normal Mode("normal")
 In normal mode, the function controlling the lighting system on normal operation by toggling between green and red lights. It also handles the countdown timer.
@@ -45,7 +45,7 @@ In emergency mode, the function coordinates the lighting system on the emergency
 
 ### handleEmerg()
 The handleEmerg function is responsible for managing the emergency handling process. Initiates the countdown timer for the emergency duration.
-####State
+#### State
 - If the system is in state 0, it prompts the user to enter the emergency duration using a keypad. Upon input, it transitions to state 1.
 - If the system is in state 1, it validates the entered emergency duration and updates the state accordingly. Once the countdown timer reaches 0, it transitions to state 2, indicating the completion of the emergency handling process.
 - If the system is in state 2, it completes the emergency handling process and waits for a new emergency to occur.
